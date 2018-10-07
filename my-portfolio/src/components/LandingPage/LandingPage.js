@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import  './LandingPage.css';
 import Sausalito from './Images/Sausalito.jpg'
+import Avatar from './Images/dansAvatar.png'
 
 
 class LandingPage extends Component {
@@ -13,6 +14,10 @@ class LandingPage extends Component {
                     <img src={ Sausalito }
                     alt="Sausalito"
                     className="Sausalito-img"
+                    />
+                    <img src = { Avatar }
+                    alt="Avatar"
+                    className="Avatar-img"
                     />
                 </Cell>
 
